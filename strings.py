@@ -19,7 +19,7 @@ name_last_char = name[-1]  # expected o
 # String Methods etc. . .
 print(name.capitalize())  # to capitalize first letter
 print(name.upper())  # to uppercase every leter
-print(name.find("na"))
+print(name.find("na"))  # to find letter "na" from the string
 
 # print
 print(name)
