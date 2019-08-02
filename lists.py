@@ -38,3 +38,14 @@ neo_heroes = ["child emperor", "bomb"]
 heroes.extend(neo_heroes)
 # expected: ['saitama', 'atomic samurai', 'genos', 'tatsumaki', 'bang', 'child emperor', 'bomb']
 print(heroes)
+
+#  lists like:
+fruits = ("bannana", "apple", "orange")
+# fruits is a Tuples much alike lists but are immutable
+# cannot be edited
+print(fruits)
+# drinks is a Set much like a lists but no items are alike
+drinks = {"soda", "coffee", "milk"}
+drinks.add("wine")  # this will be added
+drinks.add("soda")  # this will not be added; soda already exists
+print(drinks)
